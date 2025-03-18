@@ -38,3 +38,12 @@ Capa SIGPAC de la provincia de Zaragoza lista para utilizar con CartoDruid
 
 ### Enlace de descarga:
 [Descargar desde Google Drive](https://drive.google.com/file/d/11X1VAXgXYbR0TMmnt_C9OGggMSDaXK_B/view?usp=drive_link)
+
+
+# Capas Ejercicio 4
+
+**Capa Afección**
+[Descargar desde Google Drive](https://drive.google.com/file/d/1eca9tRY6QwpyJOOLJjE95t-1HErVRvFP/view?usp=drive_link)
+
+**Capa Ejercicio Módulo 4**
+[Descargar desde Google Drive](https://drive.google.com/file/d/1giM9BbKpiJpW9yuZmQ1fK_6GquUYvSRk/view?usp=drive_link)
