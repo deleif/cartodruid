@@ -1,0 +1,127 @@
+<es.jcyl.ita.crtcyl.core.config.WKSLayerConfiguration>
+  <environment>
+    <entry>
+      <string>idCapaActiva</string>
+      <string>FEATURE</string>
+    </entry>
+    <entry>
+      <string>idCapaSeleccion</string>
+      <string>FEATURE</string>
+    </entry>
+  </environment>
+  <layers class="java.util.LinkedHashMap">
+    <entry>
+      <string>Recintos Huesca</string>
+      <es.jcyl.ita.crtcyl.core.model.VectorialLayer>
+        <attributesClassName>es.jcyl.ita.crtdrd.data.MultiSqlite</attributesClassName>
+        <canCopy>true</canCopy>
+        <canCreate>false</canCreate>
+        <canDeleteAll>false</canDeleteAll>
+        <canPaste>false</canPaste>
+        <canSanitize>false</canSanitize>
+        <connected>false</connected>
+        <defaultSource>0</defaultSource>
+        <deletable>false</deletable>
+        <descripcion>Recintos Huesca</descripcion>
+        <editAfterCreation>false</editAfterCreation>
+        <editable>false</editable>
+        <exportable>true</exportable>
+        <id>huesca</id>
+        <identifiable>true</identifiable>
+        <inspeccionable>false</inspeccionable>
+        <labelExpression>C_REFREC</labelExpression>
+        <layerEditable>false</layerEditable>
+        <layerRemovable>false</layerRemovable>
+        <name>Recintos Huesca</name>
+        <searchable>true</searchable>
+        <selectable>true</selectable>
+        <showOnTOC>true</showOnTOC>
+        <sources>
+          <es.jcyl.ita.crtcyl.client.dao.source.RepoSpatiaLiteServiceDescriptor>
+            <id>5</id>
+            <dataTable>recintos</dataTable>
+            <dbURL>huesca.sqlite</dbURL>
+            <indexTable>idx_recintos_Geometry</indexTable>
+            <resourceid>recintos</resourceid>
+            <srid>25830</srid>
+            <version>20230131</version>
+          </es.jcyl.ita.crtcyl.client.dao.source.RepoSpatiaLiteServiceDescriptor>
+        </sources>
+        <sqlAsListView>C_REFREC Referencia, C_USO_SIGPAC Uso</sqlAsListView>
+        <sqlIdentify>C_REFREC Referencia, C_USO_SIGPAC Uso</sqlIdentify>
+        <symbId>JUAN</symbId>
+        <zOrder>0</zOrder>
+        <allowOverlaps>false</allowOverlaps>
+        <canChangeSymbology>true</canChangeSymbology>
+        <canDieCut>false</canDieCut>
+        <canEditVertices>false</canEditVertices>
+        <canExplode>true</canExplode>
+        <canZoomVisibles>true</canZoomVisibles>
+        <crs>0</crs>
+        <enabled>true</enabled>
+        <labelRange>
+          <max>22</max>
+          <min>16</min>
+        </labelRange>
+        <layerType>0</layerType>
+        <listeners/>
+        <range>
+          <max>21</max>
+          <min>16</min>
+        </range>
+        <resourceLock class="es.jcyl.ita.crtcyl.core.model.resource.SemaphoreLockImpl">
+          <acquirer>163852076</acquirer>
+          <acquirerTime>1738583698980</acquirerTime>
+          <locked>false</locked>
+        </resourceLock>
+        <srs>25830</srs>
+        <units>0</units>
+        <visible>true</visible>
+        <labels>true</labels>
+        <showArrowHeads>false</showArrowHeads>
+        <vectorialType>30</vectorialType>
+      </es.jcyl.ita.crtcyl.core.model.VectorialLayer>
+    </entry>
+    <entry>
+      <string>GMAPLAYER</string>
+      <es.jcyl.ita.crtcyl.core.model.Layer>
+        <canCopy>false</canCopy>
+        <canCreate>false</canCreate>
+        <canDeleteAll>false</canDeleteAll>
+        <canPaste>false</canPaste>
+        <canSanitize>false</canSanitize>
+        <connected>true</connected>
+        <defaultSource>0</defaultSource>
+        <deletable>false</deletable>
+        <descripcion>Mapa satélite con callejero</descripcion>
+        <editAfterCreation>false</editAfterCreation>
+        <editable>false</editable>
+        <exportable>true</exportable>
+        <id>GMAPLAYER</id>
+        <identifiable>false</identifiable>
+        <inspeccionable>false</inspeccionable>
+        <layerEditable>false</layerEditable>
+        <layerRemovable>false</layerRemovable>
+        <name>Mapa de Google</name>
+        <searchable>false</searchable>
+        <selectable>false</selectable>
+        <showOnTOC>true</showOnTOC>
+        <sources/>
+        <zOrder>1</zOrder>
+        <allowOverlaps>false</allowOverlaps>
+        <canChangeSymbology>false</canChangeSymbology>
+        <canDieCut>false</canDieCut>
+        <canEditVertices>false</canEditVertices>
+        <canExplode>true</canExplode>
+        <canZoomVisibles>true</canZoomVisibles>
+        <crs>0</crs>
+        <enabled>false</enabled>
+        <layerType>0</layerType>
+        <listeners/>
+        <srs>0</srs>
+        <units>0</units>
+        <visible>true</visible>
+      </es.jcyl.ita.crtcyl.core.model.Layer>
+    </entry>
+  </layers>
+</es.jcyl.ita.crtcyl.core.config.WKSLayerConfiguration>
