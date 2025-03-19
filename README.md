@@ -11,7 +11,7 @@ Para ello, CartoDruid ofrece la visualización y modificación de capas vectoria
 - Crear capas de SIGPAC para Aragón.
 - Editar y capturar de datos en campo.
 - Integrar CartoDruid con bases de datos geoespaciales.
-- Optimizar flujos de trabajo para proyectos SIG en móvil.
+
 
 ## 📚 Contenido del repositorio
 - **config**: ficheros xml de configuración de los proyectos SIGPAC para cada provincia de Aragón.
