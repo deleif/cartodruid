@@ -12,7 +12,20 @@ Descarga esta base de datos que contiene las provincias y municipios de España.
 
 # Base de los recintos SIGPAC de la provincia de Huesca
 
-Capa SIGPAC de la provincia de Huesca lista para utilizar con CartoDruid 
+Capa SIGPAC de la provincia de Huesca lista para utilizar con CartoDruid. Incluye los siguientes municipios pertenecientes a la provincia de Zaragoza:
+* Almolda (La)
+* Ardisa
+* Artieda
+* Bujaraloz
+* Mequinenza
+* Mianos
+* Mianos
+* Murillo de Gállego
+* Puendeluna
+* Salvatierra de Esca
+* Santa Eulalia de Gállego
+* Sigüés
+  
 ### Archivo:
 **huesca.sqlite** (926 MB)
 
