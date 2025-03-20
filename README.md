@@ -58,6 +58,10 @@ Para ello, CartoDruid ofrece la visualización y modificación de capas vectoria
    - Transmisión de datos.
 
 
+**Módulo 6: Generar MBTiles con QGIS**
+   - Configurar proyecto. 
+   - Proceso “Genera teselas XYZ (MBTiles)”.
+
 
 ## 🛠️ Requisitos
 - Dispositivo Android compatible.
